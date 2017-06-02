@@ -22,14 +22,14 @@ int64_t MaxPairwiseProduct(const vector<int64_t>& numbers) {
 }
 
 int main() {
-    int64_t n;
-    cin >> n;
-    vector<int64_t> numbers(n);
-    for (int i = 0; i < n; ++i) {
-        cin >> numbers[i];
-    }
+  int64_t n;
+  cin >> n;
+  vector<int64_t> numbers(n);
+  for (int i = 0; i < n; ++i) {
+      cin >> numbers[i];
+  }
 
-    int64_t result = MaxPairwiseProduct(numbers);
-    cout << result << "\n";
-    return 0;
+  int64_t result = MaxPairwiseProduct(numbers);
+  cout << result << "\n";
+  return 0;
 }
